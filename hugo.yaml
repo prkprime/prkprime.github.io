@@ -1,6 +1,7 @@
 baseURL: "https://prkprime.dev/"
 title: "Pratik Babasaheb Gorade"
-paginate: 5
+pagination:
+  pagerSize: 5
 theme: "PaperMod"
 
 enableRobotsTXT: true
