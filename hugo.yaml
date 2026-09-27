@@ -1,0 +1,81 @@
+baseURL: "https://prkprime.dev/"
+title: "Pratik Babasaheb Gorade"
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+params:
+  env: production
+  title: "Pratik Babasaheb Gorade"
+  description: "Senior Software Engineer @ eQ Technologic"
+  author: "Pratik Babasaheb Gorade"
+
+  # Theme appearance: "auto", "light", or "dark"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  # PaperMod Profile Mode (Homepage Landing Card)
+  profileMode:
+    enabled: true
+    title: "Pratik Babasaheb Gorade"
+    subtitle: "Senior Software Engineer @ [eQ Technologic](https://www.eqtechnologic.com/) | Pune, India"
+    imageUrl: "img/Pratik.JPG"
+    imageWidth: 160
+    imageHeight: 160
+    imageTitle: "Pratik Babasaheb Gorade"
+    buttons:
+      - name: "Resume"
+        url: "https://s3.prkprime.dev/resume.pdf"
+      # --- Future Sections (Uncomment to enable) ---
+      # - name: "Blog"
+      #   url: "/posts/"
+      # - name: "Projects"
+      #   url: "/projects/"
+
+  # Social links displayed in Profile Mode
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/prkprime"
+      title: "GitHub"
+    - name: "linkedin"
+      url: "https://linkedin.com/in/pratikgorade"
+      title: "LinkedIn"
+    - name: "email"
+      url: "mailto:me@prkprime.dev"
+      title: "Email"
+    - name: "telegram"
+      url: "https://t.me/prkprime"
+      title: "Telegram"
+
+  # Top header branding
+  label:
+    text: "prkprime.dev"
+    icon: ""
+
+  # --- Future / Blog Options (Currently disabled) ---
+  # ShowReadingTime: false
+  # ShowShareButtons: false
+  # ShowPostNavLinks: false
+  # ShowBreadCrumbs: false
+  # ShowCodeCopyButtons: true
+  # ShowRssButtonInSectionTermList: false
+
+# --- Navigation Menu (Uncomment when ready to enable Blog/Projects) ---
+# menu:
+#   main:
+#     - identifier: posts
+#       name: Blog
+#       url: /posts/
+#       weight: 10
+#     - identifier: projects
+#       name: Projects
+#       url: /projects/
+#       weight: 20
+#     - identifier: search
+#       name: Search
+#       url: /search/
+#       weight: 30
